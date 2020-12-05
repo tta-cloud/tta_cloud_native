@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: catalog-app
-        image: 192.168.0.8:5000/catalogs-service:2.0
+        image: 172.31.41.80:5000/catalogs-service:2.0
         ports:
         - containerPort: 50003
         imagePullPolicy: Always

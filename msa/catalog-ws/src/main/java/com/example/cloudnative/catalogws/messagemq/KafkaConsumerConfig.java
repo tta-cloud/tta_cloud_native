@@ -18,7 +18,7 @@ public class KafkaConsumerConfig {
 	@Bean
 	public ConsumerFactory<String, String> consumerFactory() {
 	    Map<String, Object> properties = new HashMap<>();
-	    properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "http://172.20.10.11:9092");
+	    properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "http://172.31.41.80:9092");
 	    properties.put(ConsumerConfig.GROUP_ID_CONFIG, "consumerGroupId");
 	    properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 	    properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);

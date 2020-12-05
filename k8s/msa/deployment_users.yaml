@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: users-app
-        image: 192.168.0.8:5000/users-service:latest
+        image: 172.31.41.80:5000/users-service:latest
         ports:
         - containerPort: 50001
         imagePullPolicy: Always
